@@ -1,12 +1,12 @@
-<div class="p-5">
+<div class="p-5 text-center">
     <h2>Cambiar permisos del usuario: {{findeduser.name}}</h2>
 
     <form class="form-control" action="/user/{{findeduser._id}}/edit" method="post">
-        <label for="profile1"> Usuario: </label>
+        <label class="labelClass" for="profile1"> Usuario: </label>
         <input type="radio" id="profile1" name="profile" value="user" />
         <br>
 
-        <label for="profile2"> Administrador</label>
+        <label class="labelClass" for="profile2"> Administrador</label>
         <input type="radio" id="profile2" name="profile" value="admin" />
         <br>
 

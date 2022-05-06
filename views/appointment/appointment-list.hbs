@@ -1,8 +1,14 @@
 <div class="p-5">
-<h2>Lista de Citas</h2>
+    <h2>Lista de Citas: </h2>
 
-{{#each data}}
-    <h2>{{fecha date}}</h2>
-{{/each}}
-
+    {{#each data}}
+    <img class="img img-fluid rounded-circle" src="{{idUser.avatar}}">
+    <h3 class="p-2">{{idUser.username}}</h3>
+    <h4>{{fecha date}}</h4>
+    <form action="/appointment/{{id}}/delete" method="POST">
+        <button class="btn btn-primary rounded-pill mt-3">Cancelar cita</button>
+    </form>
+    <hr>
+    {{/each}}
+    <a class="btn btn-primary btn-xl rounded-pill mt-5" href="/">Regresar a Home</a>
 </div>

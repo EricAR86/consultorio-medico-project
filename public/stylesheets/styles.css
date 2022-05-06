@@ -3069,23 +3069,23 @@ textarea.form-control-lg {
 }
 
 .btn-secondary {
-  color: #000;
+  color: #fff;
   background-color: #ff6a00;
   border-color: #ff6a00;
 }
 .btn-secondary:hover {
-  color: #000;
+  color: #fff;
   background-color: #ff8026;
   border-color: #ff791a;
 }
 .btn-check:focus + .btn-secondary, .btn-secondary:focus {
-  color: #000;
+  color: #fff;
   background-color: #ff8026;
   border-color: #ff791a;
   box-shadow: 0 0 0 0.25rem rgba(217, 90, 0, 0.5);
 }
 .btn-check:checked + .btn-secondary, .btn-check:active + .btn-secondary, .btn-secondary:active, .btn-secondary.active, .show > .btn-secondary.dropdown-toggle {
-  color: #000;
+  color: #fff;
   background-color: #ff8833;
   border-color: #ff791a;
 }
@@ -3093,7 +3093,7 @@ textarea.form-control-lg {
   box-shadow: 0 0 0 0.25rem rgba(217, 90, 0, 0.5);
 }
 .btn-secondary:disabled, .btn-secondary.disabled {
-  color: #000;
+  color: #fff;
   background-color: #ff6a00;
   border-color: #ff6a00;
 }
@@ -5591,6 +5591,7 @@ textarea.form-control-lg {
   padding: 1rem;
 }
 
+
 .modal-footer {
   display: flex;
   flex-wrap: wrap;
@@ -7443,6 +7444,11 @@ textarea.form-control-lg {
 
 .p-5 {
   padding: 5rem !important;
+}
+
+.p-6{
+  padding-top: 5rem;
+  padding-bottom: 1rem;
 }
 
 .px-0 {

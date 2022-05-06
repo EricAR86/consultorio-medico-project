@@ -1,19 +1,19 @@
-<div class="p-5">
+<div class="p-5 text-center">
     <h2>Editar Consulta: {{service.name}}</h2>
 
     <form class="form-control" action="/services/{{service.id}}/edit" method="post">
-        <label class="p-3"> Nombre:
+        <label class="labelClass"> Nombre:
             <br>
             <input type="text" name="name" value="{{service.name}}" />
         </label>
         <br>
 
-        <label class="p-3"> Descripción:
+        <label class="labelClass"> Descripción:
             <br>
             <textarea name="details" cols="30" rows="4">{{service.details}}</textarea>
         </label>
         <br>
-        <label class="p-3"> Precio:
+        <label class="labelClass"> Precio:
             <br>
             <input type="text" name="price" value="{{service.price}}" />
         </label>

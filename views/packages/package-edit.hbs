@@ -1,18 +1,18 @@
-<div class="p-5">
+<div class="p-5 text-center">
     <h2>Edita el paquete: {{package.name}}</h2>
 
     <form class="form-control" action="/package/{{package._id}}/edit" method="post">
-        <label class="p-3"> Nombre:
+        <label class="labelClass"> Nombre:
             <br>
             <input type="text" name="name" value="{{package.name}}" />
         </label>
         <br>
-        <label class="p-3"> Incluye:
+        <label class="labelClass"> Incluye:
             <br>
             <textarea name="description" cols="30" rows="4">{{package.description}}</textarea>
         </label>
         <br>
-        <label class="p-3"> Precio:
+        <label class="labelClass"> Precio:
             <br>
             <input type="text" name="precio" value="{{package.price}}" />
         </label>

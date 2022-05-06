@@ -1,4 +1,4 @@
-<h1 class="p-5">Lista de Paquetes</h1>
+<h1 class="p-6">Lista de Paquetes</h1>
 <div class="container px-1">
     <div class="row gx-3 align-items-center">
         <div class="col-lg-6 order-lg-2">
@@ -8,9 +8,9 @@
             <div class="p-1">
                 {{#each data}}
                 <h2>{{name}}</h2>
-                <a href="/package/{{id}}">Detalle</a>
+                <a class="btn btn-secondary rounded-pill mt-3" href="/package/{{id}}">Detalle</a>
                 {{#if ../isAdmin}}
-                <a href="/package/{{id}}/edit">Editar</a>
+                <a class="btn btn-secondary rounded-pill mt-3" href="/package/{{id}}/edit">Editar</a>
                 <form action="/package/{{id}}/delete" method="POST">
                     <button class="btn btn-primary rounded-pill mt-3">Eliminar paquete de la lista</button>
                 </form>

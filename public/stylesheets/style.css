@@ -10,3 +10,25 @@ a {
 h1 {
   color: 15px;
 } */
+
+footer{
+  background-color: black;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+.subtitulos{
+  font-size: 3em;
+}
+
+.p-principal{
+  font-size: 2em;
+}
+
+.labelClass{
+  font-size: 1.2em;
+  font-weight: 400;
+  padding: 1em;
+}
